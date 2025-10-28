@@ -44,7 +44,7 @@ If you have additional optimized assets, corrections, open an issue or a pull re
 
 ## Contact
 
-For questions about the collection or licensing, reach out via X: https://x.com/retartwurl
+For questions about the collection, reach out via official retart X: https://x.com/retartwurl
 
 ---
 
