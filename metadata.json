@@ -1943,5 +1943,10 @@
     "tokenId": 398,
     "name": "wizard retart",
     "description": "this retart knows a few spells ... watch out !!"
+  },
+  {
+    "tokenId": 399,
+    "name": "knight retart",
+    "description": "this retart has a seat at the round table 😼"
   }
 ]
