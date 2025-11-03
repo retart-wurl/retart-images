@@ -1,0 +1,20 @@
+# SVG Sprite
+sprite.svg
+
+# Dependencies
+node_modules/
+
+# Bun
+.bun/
+bun.lockb
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~

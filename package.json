@@ -1,0 +1,20 @@
+{
+  "name": "retart-images",
+  "version": "1.0.0",
+  "description": "Retart Images & Metadata",
+  "type": "module",
+  "scripts": {
+    "generate-sprite": "bun run generate-sprite.ts",
+    "sprite": "bun run generate-sprite.ts"
+  },
+  "keywords": [
+    "svg",
+    "sprite",
+    "retart"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/bun": "latest"
+  }
+}
