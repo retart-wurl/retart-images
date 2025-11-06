@@ -1948,5 +1948,15 @@
     "tokenId": 399,
     "name": "knight retart",
     "description": "this retart has a seat at the round table 😼"
+  },
+  {
+    "tokenId": 400,
+    "name": "grim retart",
+    "description": "seasons dont fear the retart ~\nnor do the wind , the sun , or the rain !"
+  },
+  {
+    "tokenId": 402,
+    "name": "judge retart",
+    "description": "this retart possesses superior judgement !"
   }
 ]
