@@ -3,6 +3,7 @@ import { readdir, readFile, writeFile } from "fs/promises";
 import { join } from "path";
 
 const SVGS_DIR = "./svgs";
+const FACE_SVGS_DIR = "./face-svgs";
 const OUTPUT_FILE = "./sprite.svg";
 
 interface SVGContent {
@@ -38,9 +39,17 @@ async function generateSprite() {
     const files = await readdir(SVGS_DIR);
     const svgFiles = files.filter((file) => file.endsWith(".svg"));
 
-    console.log(`📁 Found ${svgFiles.length} SVG files.`);
+    console.log(`📁 Found ${svgFiles.length} SVG files in svgs directory.`);
 
-    if (svgFiles.length === 0) {
+    // Read all SVG files from the face-svgs directory
+    const faceFiles = await readdir(FACE_SVGS_DIR);
+    const faceSvgFiles = faceFiles.filter((file) => file.endsWith(".svg"));
+
+    console.log(
+      `📁 Found ${faceSvgFiles.length} SVG files in face-svgs directory.`
+    );
+
+    if (svgFiles.length === 0 && faceSvgFiles.length === 0) {
       console.log("⚠️  No SVG files found.");
       return;
     }
@@ -60,6 +69,27 @@ async function generateSprite() {
       const content = await readFile(filePath, "utf-8");
       const tokenId = file.replace(".svg", "");
       const id = `retart-${tokenId}`;
+      const viewBox = extractViewBox(content);
+      const innerContent = extractSVGContent(content);
+
+      // Wrap with <symbol> tag
+      const symbolContent = `  <symbol id="${id}"${
+        viewBox ? ` viewBox="${viewBox}"` : ""
+      }>
+${innerContent}
+  </symbol>`;
+
+      svgContents.push({
+        id,
+        content: symbolContent,
+      });
+    }
+
+    // Process all face SVG files
+    for (const file of faceSvgFiles) {
+      const filePath = join(FACE_SVGS_DIR, file);
+      const content = await readFile(filePath, "utf-8");
+      const id = file.replace(".svg", ""); // Use filename as-is
       const viewBox = extractViewBox(content);
       const innerContent = extractSVGContent(content);
 
