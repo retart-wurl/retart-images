@@ -1968,5 +1968,10 @@
     "tokenId": 405,
     "name": "latte retart",
     "description": "retart latte art !!! RETART LATTE ART !!!!!!"
+  },
+  {
+    "tokenId": 406,
+    "name": "ballerina retart",
+    "description": "this retart is always en pointe !"
   }
 ]
