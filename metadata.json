@@ -1973,5 +1973,10 @@
     "tokenId": 406,
     "name": "ballerina retart",
     "description": "this retart is always en pointe !"
+  },
+  {
+    "tokenId": 407,
+    "name": "purple ghost monster retart",
+    "description": "gengart >:)"
   }
 ]
