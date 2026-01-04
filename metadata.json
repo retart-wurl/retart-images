@@ -2058,5 +2058,15 @@
     "tokenId": 425,
     "name": "kagami mochi retart",
     "description": "this retart wears a daidai hat and symbolizes harmony and the continuity of life !"
+  },
+  {
+    "tokenId": 427,
+    "name": "water retart",
+    "description": "this retart is dripped out !"
+  },
+  {
+    "tokenId": 427,
+    "name": "cowboy retart",
+    "description": "this retart is a rootin tootin cowboy !! yeehaw !!"
   }
 ]
