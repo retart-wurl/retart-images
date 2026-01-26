@@ -2068,5 +2068,10 @@
     "tokenId": 428,
     "name": "cowboy retart",
     "description": "this retart is a rootin tootin cowboy !! yeehaw !!"
+  },
+  {
+    "tokenId": 429,
+    "name": "ant retart",
+    "description": "this retart wasnt invited to the picnic ! he doesnt care !"
   }
 ]
