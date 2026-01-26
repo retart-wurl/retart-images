@@ -2073,5 +2073,50 @@
     "tokenId": 429,
     "name": "ant retart",
     "description": "this retart wasnt invited to the picnic ! he doesnt care !"
-  }
+  },
+  {
+    "tokenId": 430,
+    "name": "helicopter retart",
+    "description": "this retart might be an attack helicopter ! pew pew pew pew pew"
+  },
+  {
+    "tokenId": 431,
+    "name": "salt and pepper retart",
+    "description": "salt and spice and everything nice !"
+  },
+  {
+    "tokenId": 432,
+    "name": "pb & j retart",
+    "description": "we go together like peanut butter and jelly ... we're both retarted :)"
+  },
+  {
+    "tokenId": 433,
+    "name": "airplane retart",
+    "description": "this airplane's landing gears are always engaged !"
+  },
+  {
+    "tokenId": 434,
+    "name": "honey retart",
+    "description": "this retart is short and sweet !"
+  },
+  {
+    "tokenId": 435,
+    "name": "koala retart",
+    "description": "this retart has a smooth brain ! no wrinkles to be found !"
+  },
+  {
+    "tokenId": 436,
+    "name": "water turtle retart",
+    "description": "this retart looks familiar ... squartle or something his name was"
+  },
+  {
+    "tokenId": 437,
+    "name": "eebee retart",
+    "description": "this retart can evolve into so many different color retart waw"
+  },
+  {
+    "tokenId": 438,
+    "name": "firemander retart",
+    "description": "does bro know he is on fire"
+  } 
 ]
